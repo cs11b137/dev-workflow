@@ -1,0 +1,16 @@
+{
+  "description": "In sdd-initialized repos, require explicit user approval before any git push (completion gate: local commits only).",
+  "hooks": {
+    "PreToolUse": [
+      {
+        "matcher": "Bash",
+        "hooks": [
+          {
+            "type": "command",
+            "command": "python3 \"${CLAUDE_PLUGIN_ROOT}/hooks/guard-push.py\""
+          }
+        ]
+      }
+    ]
+  }
+}

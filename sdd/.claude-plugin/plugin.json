@@ -1,0 +1,17 @@
+{
+  "$schema": "https://anthropic.com/claude-code/plugin.schema.json",
+  "name": "sdd",
+  "version": "0.1.0",
+  "description": "Spec-driven development for coding agents: spec as single source of truth, prototype-first UI, scoped verification, completion gate, traceable releases. Includes project templates, auto-init, workflow skills and a push guard.",
+  "author": {
+    "name": "wuwenjun"
+  },
+  "keywords": [
+    "spec-driven",
+    "workflow",
+    "agents-md",
+    "release",
+    "prototype-first"
+  ],
+  "license": "MIT"
+}

@@ -1,0 +1,16 @@
+{
+  "$schema": "https://anthropic.com/claude-code/marketplace.schema.json",
+  "name": "dev-workflow",
+  "description": "Spec-driven development workflow plugins for coding agents.",
+  "owner": {
+    "name": "wuwenjun"
+  },
+  "plugins": [
+    {
+      "name": "sdd",
+      "source": "./sdd",
+      "description": "Spec-driven development workflow: templates, auto-init, workflow skills, push guard.",
+      "version": "0.1.0"
+    }
+  ]
+}
